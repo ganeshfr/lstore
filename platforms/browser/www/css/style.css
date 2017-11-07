@@ -1,0 +1,11 @@
+.col-xs-12{text-align: center;}
+.btn-default{background-color: #bee3da;}
+h1{font-family: arial,sans-serif;
+   color: blue;
+   font-weight: bold;}
+table {margin-top:15px;
+       border-collapse: collapse;}
+td{ padding:5px;
+    border: 1px solid black;}
+.first{background-color: #82a2ff;
+      color:white;}

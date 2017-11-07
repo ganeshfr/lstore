@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOCAL STORAGE</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	<script src="js/local.js"></script>
+  </head>
+  </head>
+  <body onload="afficher()" >
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-xs-12">
+          <h1>Liste de courses</h1>
+            <form>
+              <p><label for="prod">Produit :</label><br>
+              <input type="text" id="prod" size="20" placeholder = "Produit">
+              </p>
+              <p><label for="q">Quantité :</label><br>
+              <input type="text" id="q" size="20" placeholder = "Quantité">
+              </p>
+              <p>
+                <input type="button" class="btn btn-default" value="Ajouter" onclick="ajouter();">
+                <input type="button" class="btn btn-default" value="Modifier" onclick="modifier()">
+                <input type="button" class="btn btn-default" value="Supprimer" onclick="supprimer()">
+              </p>
+            </form>
+            <table align="center" id="paires">
+
+            </table>
+            <br>
+            <input type="button" class="btn btn-primary" value="Clear" onclick="doClear()">
+	      </div>
+	    </div>
+	  </div>
+
+	  <script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.js"></script>
+  </body>
+</html>
